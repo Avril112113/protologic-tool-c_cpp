@@ -1,0 +1,13 @@
+.vscode/
+
+.env
+build/
+
+# Used for local testing
+sim/
+ship.wasm
+ship.wat
+
+
+# Used when testing template.
+copy_build_test.sh
