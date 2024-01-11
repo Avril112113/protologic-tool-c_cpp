@@ -16,7 +16,5 @@ WASM_IMPORT("protologic", "sharedmemory_set_readaddress", sharedmemory_set_reada
 
 WASM_IMPORT("protologic", "cpu_get_fuel", cpu_get_fuel, int64_t);
 
-WASM_IMPORT("protologic", "radar_get_contact_info", radar_get_contact_info, void, int32_t index, RadarContactInfo* dst);
-
 WASM_IMPORT("protologic", "radar_get_contact_list", radar_get_contact_list, int32_t, RadarContactInfo dest[], int32_t destCount);
 
